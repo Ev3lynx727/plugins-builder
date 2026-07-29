@@ -1,6 +1,6 @@
 {
   "name": "plugins-builder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "description": "Cross-framework plugin scaffold generator for OpenCode, Hermes, OpenClaw, Kiro CLI, and Claude Code. One-shot template copy + real config patching.",
