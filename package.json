@@ -1,8 +1,15 @@
 {
-  "name": "plugins-builder",
+  "name": "@ev3lynx727/plugins-builder",
   "version": "0.2.1",
-  "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ev3lynx727/plugins-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ev3lynx727/plugins-builder/issues"
+  },
+  "homepage": "https://github.com/Ev3lynx727/plugins-builder#readme",
   "description": "Cross-framework plugin scaffold generator for OpenCode, Hermes, OpenClaw, Kiro CLI, and Claude Code. One-shot template copy + real config patching.",
   "scripts": {
     "install": "node scripts/install.mjs",
