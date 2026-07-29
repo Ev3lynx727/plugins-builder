@@ -11,6 +11,13 @@ All notable changes to this project will be documented in this file.
 - V0.2.0 — Claude Code support + real config patching + list/uninstall
 
 
+### Miscellaneous Tasks
+
+- Add git-cliff + release script for automated changelogs
+
+- Add MIT license
+
+
 ## [0.1.0] — 2026-07-29
 
 
