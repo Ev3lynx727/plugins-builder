@@ -12,7 +12,10 @@
     "install:kiro": "node scripts/install.mjs kiro",
     "install:claude": "node scripts/install.mjs claude",
     "list": "node scripts/install.mjs list",
-    "test:dry-run": "for f in claude hermes opencode openclaw kiro; do echo \"=== $f ===\"; node scripts/install.mjs $f --dry-run; done"
+    "test:dry-run": "for f in claude hermes opencode openclaw kiro; do echo \"=== $f ===\"; node scripts/install.mjs $f --dry-run; done",
+    "changelog": "git-cliff --output CHANGELOG.md",
+    "changelog:preview": "git-cliff --output -",
+    "release": "node scripts/release.mjs"
   },
   "keywords": [
     "claude",
