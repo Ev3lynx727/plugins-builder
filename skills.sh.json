@@ -29,6 +29,13 @@
       "skills": [
         "kiro-hooks-builder"
       ]
+    },
+    {
+      "title": "Claude Code",
+      "description": "TypeScript hooks for Claude Code — PreToolUse/PostToolUse handlers registered in ~/.claude/settings.json. Supports read interception, argument mutation, and output enrichment.",
+      "skills": [
+        "claude-hooks-builder"
+      ]
     }
   ]
 }
