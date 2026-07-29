@@ -1,0 +1,16 @@
+{
+  "name": "plugins-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Various agent framework behavior build with extensions/, plugins/ and hooks/ — each framework has its own structured architecture, skills ready to use in your agents",
+  "scripts": {
+    "install": "node scripts/install.mjs",
+    "install:opencode": "node scripts/install.mjs opencode",
+    "install:hermes": "node scripts/install.mjs hermes",
+    "install:openclaw": "node scripts/install.mjs openclaw",
+    "install:kiro": "node scripts/install.mjs kiro"
+  },
+  "keywords": ["opencode", "hermes", "openclaw", "kiro", "plugin", "skill"],
+  "license": "MIT"
+}

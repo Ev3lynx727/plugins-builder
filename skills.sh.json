@@ -1,0 +1,34 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "OpenCode",
+      "description": "TypeScript plugins for the OpenCode agent framework — tool-based, auto-discovered from .config/opencode/plugins/.",
+      "skills": [
+        "oc-plugins-builder"
+      ]
+    },
+    {
+      "title": "Hermes",
+      "description": "Python plugin packages for the Hermes Agent — plugin.yaml + __init__.py, configured via config.yaml plugins.enabled.",
+      "skills": [
+        "hermes-plugins-builder"
+      ]
+    },
+    {
+      "title": "OpenClaw",
+      "description": "TypeScript before-tool-call hooks for OpenClaw — handler.ts with default export, registered in openclaw.json hooks.internal.entries.",
+      "skills": [
+        "openclaw-hooks-builder"
+      ]
+    },
+    {
+      "title": "Kiro CLI",
+      "description": "Python pre-tool hooks for Kiro CLI — standalone scripts referenced in agent_config.json hooks.preToolUse.",
+      "skills": [
+        "kiro-hooks-builder"
+      ]
+    }
+  ]
+}

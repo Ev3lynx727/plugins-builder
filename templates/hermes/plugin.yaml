@@ -1,0 +1,13 @@
+name: md-analyzer
+version: 0.1.0
+description: "Token-aware Markdown pre-read hook — injects structured keypoints outline before agent reads .md files. Saves context by replacing full file content with a distilled summary."
+pip_dependencies:
+  - pyyaml>=6.0
+hooks:
+  - before_tool_call
+  - on_turn_end
+# Configuration (set via ~/.hermes/.env):
+#   MD_ANALYZER_PATH=/usr/local/bin/md-analyzer    # Path to md-analyzer binary
+#   MD_ANALYZER_MAX_TOKENS=5000                    # Max tokens per keypoints output
+#   MD_ANALYZER_WHITELIST=AGENTS.md,CLAUDE.md      # Comma-separated exact-match files (keypoints-only)
+#   MD_ANALYZER_EXCLUDE=secrets/,private/          # Comma-separated path prefixes to skip
