@@ -1,10 +1,29 @@
 # Plugins Builder
 
-[![skills.sh](https://skills.sh/b/Ev3lynx727/plugins-builder)](https://skills.sh/Ev3lynx727/plugins-builder)
+[![npm version](https://img.shields.io/npm/v/@ev3lynx727/plugins-builder)](https://www.npmjs.com/package/@ev3lynx727/plugins-builder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![skills.sh](https://img.shields.io/badge/skills.sh-discover-blue)](https://skills.sh/Ev3lynx727/plugins-builder)
 
 Cross-framework plugin scaffold generator. Supports OpenCode, Hermes, OpenClaw, Kiro CLI, and Claude Code.
 
 Scaffold a working plugin for any agent framework in one command.
+
+## Install
+
+```bash
+# Via npm (global or npx)
+npm install -g @ev3lynx727/plugins-builder
+# or
+npx @ev3lynx727/plugins-builder
+
+# Via skills.sh (skills install)
+npx skills add Ev3lynx727/plugins-builder
+
+# Or clone and run directly
+git clone https://github.com/Ev3lynx727/plugins-builder.git
+cd plugins-builder
+node scripts/install.mjs
+```
 
 ## Cascade
 
