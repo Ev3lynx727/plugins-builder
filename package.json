@@ -1,16 +1,31 @@
 {
   "name": "plugins-builder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Various agent framework behavior build with extensions/, plugins/ and hooks/ — each framework has its own structured architecture, skills ready to use in your agents",
+  "description": "Cross-framework plugin scaffold generator for OpenCode, Hermes, OpenClaw, Kiro CLI, and Claude Code. One-shot template copy + real config patching.",
   "scripts": {
     "install": "node scripts/install.mjs",
     "install:opencode": "node scripts/install.mjs opencode",
     "install:hermes": "node scripts/install.mjs hermes",
     "install:openclaw": "node scripts/install.mjs openclaw",
-    "install:kiro": "node scripts/install.mjs kiro"
+    "install:kiro": "node scripts/install.mjs kiro",
+    "install:claude": "node scripts/install.mjs claude",
+    "list": "node scripts/install.mjs list",
+    "test:dry-run": "for f in claude hermes opencode openclaw kiro; do echo \"=== $f ===\"; node scripts/install.mjs $f --dry-run; done"
   },
-  "keywords": ["opencode", "hermes", "openclaw", "kiro", "plugin", "skill"],
+  "keywords": [
+    "claude",
+    "opencode",
+    "hermes",
+    "openclaw",
+    "kiro",
+    "plugin",
+    "skill",
+    "hook",
+    "agent",
+    "scaffold",
+    "template"
+  ],
   "license": "MIT"
 }
